@@ -1,0 +1,9 @@
+package com.stc.gitcheck.cicdtest.scripts;
+
+import org.testng.annotations.Test;
+
+public class PlusMinus {
+  @Test
+  public void f() {
+  }
+}

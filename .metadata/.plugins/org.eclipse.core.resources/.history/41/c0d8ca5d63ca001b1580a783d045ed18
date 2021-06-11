@@ -1,0 +1,19 @@
+package com.stc.gitcheck.cicdtest.scripts;
+
+import org.testng.annotations.Test;
+
+public class PlusMinus {
+  @Test
+  public void f() {
+  System.out.println("Plus Minus");
+  for(int intPlus=1;intPlus<5;intPlus++)
+  {
+	  System.out.print("+");
+	  for(int intMinus=intPlus;intMinus <= intPlus;intMinus++)
+	  {
+		  System.out.print("-");
+		  intMinus=intMinus+1;
+	  }
+  }
+  }
+}

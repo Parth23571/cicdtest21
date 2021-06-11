@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94" started-at="2021-06-11T08:54:37 IST" finished-at="2021-06-11T08:54:37 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="94" started-at="2021-06-11T08:54:37 IST" finished-at="2021-06-11T08:54:37 IST">
+      <class name="com.stc.gitcheck.cicdtest.scripts.PlusMinus">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.stc.gitcheck.cicdtest.scripts.PlusMinus@1f36e637]" name="f" duration-ms="32" started-at="2021-06-11T08:54:37 IST" finished-at="2021-06-11T08:54:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.stc.gitcheck.cicdtest.scripts.PlusMinus -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

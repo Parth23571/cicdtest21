@@ -1,0 +1,87 @@
+package com.stc.gitcheck.cicdtest.scripts;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class OpenApplication {
+	public WebDriver driver=null;
+	@Test
+  public void f() {
+
+	  String strPath="E:\\SeleniumTraining1\\TestingApp.html";
+	 // public WebDriver driver=null;
+	  WebDriverManager.chromedriver().setup();
+	  
+	  try
+	  {
+		driver=new ChromeDriver();
+		driver.get(strPath);
+		driver.manage().window().maximize();
+		driver.findElement(By.id("PWD")).sendKeys("Testing");
+		//WebElement password=driver.findElement(By.id("PWD1"));
+		boolean passw=isFieldExists("PWD1");
+		System.out.println(passw);
+	  if(passw=true)
+	  {
+		  System.out.println("Elsemene Exists");
+		  
+	  }
+	  else
+	  {
+		  System.out.println("Elsemene does NOT Exist");
+		  
+	  }
+		Thread.sleep(3000);
+	  
+	  //driver.quit();
+	  }
+	  
+	  catch(Exception e)
+	  {
+		  System.out.println("Error while launching " + e.getMessage());
+	  }
+	  
+  }	  
+	
+  public boolean isFieldExists(String fieldname1)
+	  {
+	  boolean flag=false;
+	  
+	  try
+	  {
+	  WebElement fieldname= driver.findElement(By.id(fieldname1));
+	  flag=false;
+	  
+	  
+	  if(fieldname.isDisplayed())
+	  {
+		  flag=true;
+	  }
+	  else
+	  {
+
+		  flag=false;
+	  }  
+	  }
+	  catch(Exception e)
+	  {
+		  flag=false
+		  System.out.println(e.getMessage());
+		  return flag;
+		  
+	  }
+	  return flag;
+	  }
+@AfterTest
+
+public void tearDown()
+{
+	driver.quit();
+}
+}

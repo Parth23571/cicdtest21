@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31668" started-at="2021-06-11T15:37:49 IST" finished-at="2021-06-11T15:38:20 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31668" started-at="2021-06-11T15:37:49 IST" finished-at="2021-06-11T15:38:20 IST">
+      <class name="com.stc.gitcheck.cicdtest.scripts.OpenApplication">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stc.gitcheck.cicdtest.scripts.OpenApplication@39c0f4a]" name="setUp" is-config="true" duration-ms="9930" started-at="2021-06-11T15:37:49 IST" finished-at="2021-06-11T15:37:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgotpassword()[pri:0, instance:com.stc.gitcheck.cicdtest.scripts.OpenApplication@39c0f4a]" name="forgotpassword" duration-ms="8001" started-at="2021-06-11T15:37:59 IST" finished-at="2021-06-11T15:38:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stc.gitcheck.cicdtest.scripts.OpenApplication@39c0f4a]" name="tearDown" is-config="true" duration-ms="1373" started-at="2021-06-11T15:38:07 IST" finished-at="2021-06-11T15:38:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stc.gitcheck.cicdtest.scripts.OpenApplication@39c0f4a]" name="setUp" is-config="true" duration-ms="2067" started-at="2021-06-11T15:38:08 IST" finished-at="2021-06-11T15:38:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.stc.gitcheck.cicdtest.scripts.OpenApplication@39c0f4a]" name="openApplication" duration-ms="9236" started-at="2021-06-11T15:38:10 IST" finished-at="2021-06-11T15:38:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stc.gitcheck.cicdtest.scripts.OpenApplication@39c0f4a]" name="tearDown" is-config="true" duration-ms="702" started-at="2021-06-11T15:38:20 IST" finished-at="2021-06-11T15:38:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.stc.gitcheck.cicdtest.scripts.OpenApplication -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
